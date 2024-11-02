@@ -34,7 +34,9 @@ git submodule update --remote --recursive
 
 ## Remove submodule
 the answer copied from: https://gist.github.com/myusuf3/7f645819ded92bda6677
+
 - This seems to be a more modern version (copied from https://stackoverflow.com/a/36593218/2066118):
+
 ```
 # Remove the submodule entry from .git/config
 git submodule deinit -f path/to/submodule
