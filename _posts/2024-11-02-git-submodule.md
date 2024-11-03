@@ -1,5 +1,6 @@
 ---
-title: Git Submodule Cheat Sheet
+title: Git Submodule
+description: Quick start with git submodule.
 date: 2024-11-02 15:59:50 +/-0900
 categories: [git]
 tags: [git, cheat_sheet]     # TAG names should always be lowercase
