@@ -7,28 +7,28 @@ tags: [git, cheat_sheet]     # TAG names should always be lowercase
 ---
 
 ## Add submodule
-```
+```sh
 git submodule add GIT_REPO_URL PATH/SUBMODULE
 ```
 
 ## Clone a project that contains submodule needs
-```
+```sh
 git submodule init
 git submodule update
 ```
 or 
-```
+```sh
 git clone --recurse-submodules GIT_REPO_URL
 ```
 
 ## Update submodule from ref repo
-```
+```sh
 cd PATH/SUBMODULE
 git fetch
 git merge origin/{BRANCH}
 ```
 or
-```
+```sh
 git submodule update --remote --recursive
 ```
 
@@ -38,7 +38,7 @@ the answer copied from: https://gist.github.com/myusuf3/7f645819ded92bda6677
 
 - This seems to be a more modern version (copied from https://stackoverflow.com/a/36593218/2066118):
 
-```
+```sh
 # Remove the submodule entry from .git/config
 git submodule deinit -f path/to/submodule
 
